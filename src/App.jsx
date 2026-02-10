@@ -19,7 +19,7 @@ export default function App() {
             <p className='px-4 md:px-10 font-medium tracking-wide text-lg md:text-xl text-gray-700 dark:text-gray-300 italic'>
               "Compromiso, vocación y amor por nuestro colegio."
             </p>
-            <p className='px-4 md:px-12 font-normal tracking-wide text-lg text-justify md:text-center leading-relaxed'>
+            <p className='px-4 pb-18 md:px-12 font-normal tracking-wide text-lg text-justify md:text-center leading-relaxed'>
               Estudiante de 11° con una trayectoria de vida en La Presentación, caracterizada por la lealtad y una profunda vocación de servicio. Mi objetivo es transformar el liderazgo estudiantil en un ejercicio de bienestar común, donde cada voz sea representada con justicia y cercanía.
             </p>
           </div>
