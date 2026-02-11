@@ -128,7 +128,7 @@ export default function App() {
     
     {/* INSTAGRAM */}
     <a 
-      href="https://instagram.com/TU_USUARIO_AQUI" 
+      href="https://instagram.com/02.isapersonera" 
       target="_blank" 
       rel="noopener noreferrer" 
       className='flex items-center gap-x-3 hover:text-pink-400 transition-all transform hover:scale-110'
@@ -139,7 +139,7 @@ export default function App() {
 
     {/* TIKTOK */}
     <a 
-      href="https://tiktok.com/@TU_USUARIO_AQUI" 
+      href="https://tiktok.com/@02.isapersonera" 
       target="_blank" 
       rel="noopener noreferrer" 
       className='flex items-center gap-x-3 hover:text-cyan-400 transition-all transform hover:scale-110'
