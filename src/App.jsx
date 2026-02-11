@@ -72,37 +72,50 @@ export default function App() {
           <div className='grid md:grid-cols-3 gap-8'>
 
             {/* Recreacionales */}
-            <div className='bg-blue-50 dark:bg-blue-900/10 p-8 rounded-3xl shadow-lg hover:scale-105 transition-transform'>
-              <h3 className='text-3xl font-bold mb-6 text-blue-700 dark:text-blue-400'>🎮 Recreacionales</h3>
-              <ul className='space-y-2 text-lg'>
-                <li>• Día del juguete y Día dulce (Primaria).</li>
-                <li>• Juguetes por sonrisas (Donaciones).</li>
-                <li>• Torneo de videojuegos y Voleibol.</li>
-                <li>• Baile de graduación.</li>
-                <li>• Salón recreativo y Radio Escolar.</li>
-                <li>• Alianza con <strong>Black Project</strong> (Servicio social).</li>
-              </ul>
-            </div>
+      <div className="bg-blue-50 dark:bg-blue-900/10 p-8 rounded-3xl shadow-lg hover:scale-105 transition-transform border border-blue-100 dark:border-blue-800">
+        <h3 className="text-3xl font-bold mb-6 text-blue-700 dark:text-blue-400 flex items-center gap-2">
+          🎮 Recreacionales
+        </h3>
+        <ul className="space-y-4 text-gray-700 dark:text-gray-300">
+          <li><span className="font-bold">Pasarela Temática:</span> Concurso de disfraces por grupos (Ej: Gru y sus Minions).</li>
+          <li><span className="font-bold">Torneo de Videojuegos:</span> Espacio de competencia para talentos digitales.</li>
+          <li><span className="font-bold">Homecoming:</span> Fiesta de regreso a clases para recaudar fondos (Grados 10° y 11°).</li>
+          <li><span className="font-bold">Voleibol e Intramuros:</span> Torneos de volley, fútbol y básquetbol.</li>
+          <li><span className="font-bold">Salón Recreativo:</span> Zona de relax con juegos de mesa, puffs y libros.</li>
+          <li><span className="font-bold">Radio Escolar:</span> Podcasts, música y dedicatorias en vivo.</li>
+          <li><span className="font-bold">Alianza Black Project:</span> Carrera deportiva con servicio social y venta de snacks saludables.</li>
+        </ul>
+      </div>
 
-            {/* Ambientales */}
-            <div className='bg-green-50 dark:bg-green-900/10 p-8 rounded-3xl shadow-lg hover:scale-105 transition-transform'>
-              <h3 className='text-3xl font-bold mb-6 text-green-700 dark:text-green-400'>🌿 Ambientales</h3>
-              <ul className='space-y-4  text-lg'>
-                <li><strong>Patitas por tapitas:</strong> Reciclaje para alimento animal.</li>
-                <li><strong>Planta durante el año:</strong> Cuidado de vida verde por cursos.</li>
-              </ul>
-            </div>
+      {/* Ambientales */}
+      <div className="bg-green-50 dark:bg-green-900/10 p-8 rounded-3xl shadow-lg hover:scale-105 transition-transform border border-green-100 dark:border-green-800">
+        <h3 className="text-3xl font-bold mb-6 text-green-700 dark:text-green-400 flex items-center gap-2">
+          🌿 Ambientales
+        </h3>
+        <ul className="space-y-6 text-gray-700 dark:text-gray-300">
+          <li>
+            <strong className="block text-xl text-green-800 dark:text-green-300">Patitas por tapitas</strong>
+            Recolección de tapas por cursos para donar alimento a perritos rescatados. ¡El curso líder recibe un premio!
+          </li>
+          <li>
+            <strong className="block text-xl text-green-800 dark:text-green-300">Planta durante el año</strong>
+            Cada curso adoptará y cuidará una planta. Reconocimiento especial al grado que mejor la conserve.
+          </li>
+        </ul>
+      </div>
 
-            {/* Académicas */}
-            <div className='bg-orange-50 dark:bg-orange-900/10 p-8 rounded-3xl shadow-lg hover:scale-105 transition-transform'>
-              <h3 className='text-3xl font-bold mb-6 text-orange-700 dark:text-orange-400'>📚 Académicas</h3>
-              <ul className='space-y-4  text-lg'>
-                <li><strong>Día de la profesión:</strong> Inspiración para el futuro.</li>
-                <li><strong>Día del emprendimiento:</strong> Fomento de la creatividad.</li>
-                <li><strong>Padrino académico:</strong> Apoyo entre compañeros.</li>
-                <li><strong>Ballet y Acrobacia:</strong> Expresión artística.</li>
-              </ul>
-            </div>
+      {/* Académicas */}
+      <div className="bg-orange-50 dark:bg-orange-900/10 p-8 rounded-3xl shadow-lg hover:scale-105 transition-transform border border-orange-100 dark:border-orange-800">
+        <h3 className="text-3xl font-bold mb-6 text-orange-700 dark:text-orange-400 flex items-center gap-2">
+          📚 Académicas
+        </h3>
+        <ul className="space-y-4 text-gray-700 dark:text-gray-300">
+          <li><span className="font-bold">Día del Emprendimiento:</span> Feria para presentar proyectos y creatividad.</li>
+          <li><span className="font-bold">Ballet y Acrobacia:</span> Clases artísticas dirigidas por estudiantes y docentes.</li>
+          <li><span className="font-bold">Padrino Académico:</span> Apoyo mutuo entre compañeros para mejorar el rendimiento.</li>
+          <li><span className="font-bold">Equipo de Animación:</span> Creación de barra y porrismo para apoyar al colegio en intercolegiados.</li>
+        </ul>
+      </div>
           </div>
         </div>
       </section>
